@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Snothy/trovobot/issues"
   },
-  "homepage": "https://github.com/Snothy/trovobot#readme"
+  "homepage": "https://github.com/Snothy/trovobot#readme",
+  "dependencies": {
+    "node-fetch": "^3.0.0",
+    "puppeteer": "^11.0.0",
+    "ws": "^8.2.3"
+  }
 }
