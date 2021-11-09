@@ -3,5 +3,5 @@ const requests = require('./lib/requests');
 
 module.exports = {
   Bot: trovobot,
-  req: requests
+  req: requests,
 }
