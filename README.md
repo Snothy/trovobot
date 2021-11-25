@@ -95,6 +95,11 @@ You can read up on this in Trovo's API docs: https://developer.trovo.live/docs/C
    - Link to developer portal: https://developer.trovo.live/
    - Once your application is approved (may take up to 2 weeks), you will have access to this: <br />
    ![Trovo application](https://i.imgur.com/1yy9GVl.png)
+2. Why is the bot unable to send any messages in my chat?
+   - You need to authorize the application (with the appropriate scopes) from the account, in which the bot is running. Meaning the chat you'll be using it for.
+   - Currently, this library does not have configurable scopes, so your application by default will require all scopes Trovo provides. So careful with your role management. 
+   - URL: https://open.trovo.live/page/login.html?client_id=${client_id}&response_type=token&scope=channel_details_self+channel_update_self+chat_send_self+chat_connect+send_to_my_channel+manage_messages+user_details_self&redirect_uri=https%3A%2F%2Ftrovo.live&state=statedata
+   - Replace `${client_id}` with your client_id and give your application access to those scopes.
 
 ## Issues
  - Have not extensively tested how consistent the code is at pressing the "Allow" button during authorization.
@@ -102,6 +107,7 @@ You can read up on this in Trovo's API docs: https://developer.trovo.live/docs/C
 
 ## Future plans 
  - Making the `client.init()` method more consistent.
+ - Configurable scopes.
  - Documentation.
  - Cover more of Trovo's API
 
