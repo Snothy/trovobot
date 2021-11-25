@@ -1,10 +1,10 @@
-# trovobot - A simple library for creating Trovo chat bots
+# A simple library for creating Trovo chat bots
 
 ## About
 This library is a simple wrapper around Trovo's API, designed to make building chat bots for Trovo easier. <br />
 I have been in talks with administrators at Trovo regarding making improvements to their API. For more on this, scroll to the bottom.
 
-For an example usage of this library, check out: https://github.com/Snothy/trovobot_template.
+For an example usage of this library, check out: https://github.com/Snothy/trovobot-template.
 
 ## Requirements
 Node.js and npm. <br />
