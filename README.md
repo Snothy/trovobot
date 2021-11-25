@@ -94,7 +94,7 @@ You can read up on this in Trovo's API docs: https://developer.trovo.live/docs/C
    - You have to create an application on Trovo's developer portal. Once your application is approved, you will be granted access to make requests to their API using your credentials.
    - Link to developer portal: https://developer.trovo.live/
    - Once your application is approved (may take up to 2 weeks), you will have access to this: <br />
-   ![Trovo application](https://imgur.com/a/kRYQH9X)
+   ![Trovo application](https://i.imgur.com/1yy9GVl.png)
 
 ## Issues
  - Have not extensively tested how consistent the code is at pressing the "Allow" button during authorization.
