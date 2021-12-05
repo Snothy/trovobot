@@ -1,5 +1,8 @@
 const trovobot = require('./lib/trovobot');
+const Scopes = require('./utils/Scopes');
 
 module.exports = {
-  Bot: trovobot
+  Client: trovobot.Client,
+  messageReturnType: trovobot.messageReturnType(),
+  Scopes: Scopes
 }
