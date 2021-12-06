@@ -5,4 +5,4 @@ module.exports = {
   Client: trovobot.Client,
   messageReturnType: trovobot.messageReturnType(),
   Scopes: Scopes
-}
+};
